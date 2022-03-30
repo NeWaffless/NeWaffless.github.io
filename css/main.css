@@ -1,0 +1,32 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-style: extrabold;
+    color: #984B43;
+}
+
+.navbar {
+    background-color: #18121E;
+}
+
+.navbar-brand {
+    font-family: 'Tahoma', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* #introduction, #about {
+    background-color: #E9F7FD;
+} */
+
+/* #projects, #contact {
+    background-color: #FAC898;
+} */
+
+#newaffless-picture {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
