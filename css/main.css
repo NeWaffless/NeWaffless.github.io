@@ -8,6 +8,11 @@ h1 {
     color: #984B43;
 }
 
+footer {
+    background-color: #18121E;
+    color: white;
+}
+
 .navbar {
     background-color: #18121E;
 }
@@ -21,7 +26,7 @@ h1 {
     cursor: pointer;
 }
 
-/* #introduction, #about {
+/* #home, #about {
     background-color: #E9F7FD;
 } */
 
@@ -30,7 +35,36 @@ h1 {
 } */
 
 #newaffless-picture {
-    width: 50%;
+    width: 30%;
     height: auto;
-    border-radius: 50%;
+}
+
+.sidebar {
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 100vh;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        height: 100vh;
+    }
 }
