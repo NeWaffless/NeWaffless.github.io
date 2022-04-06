@@ -32,6 +32,11 @@ h1 {
 .sidebar {
     background-color: #4D3227;
     color: #EBC999;
+    display: block;
+    overflow: hidden;
+}
+
+.sidebar-content {
     height: 100vh;
     width: 100%;
     display: flex;
