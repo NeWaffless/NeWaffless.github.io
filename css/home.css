@@ -1,4 +1,10 @@
+#home {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
 #home-profile-img {
-    width: 30%;
+    width: 300px;
     height: auto;
 }

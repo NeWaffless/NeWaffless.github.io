@@ -5,7 +5,7 @@
 h1 {
     font-weight: 800;
     font-style: extrabold;
-    color: #984B43;
+    color: #4D3227;
 }
 
 /* .navbar {
@@ -30,7 +30,8 @@ h1 {
 } */
 
 .sidebar {
-    background-color: #f1f1f1;
+    background-color: #4D3227;
+    color: #EBC999;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -42,6 +43,10 @@ h1 {
     width: 50%;
 }
 
+.sidebar-header div a {
+    text-decoration: none;
+}
+
 .sidebar-navigation {
     width: 100%;
     display: flex;
@@ -49,22 +54,22 @@ h1 {
 }
 
 .sidebar-navigation a {
-    color: black;
+    color: #EBC999;
     text-decoration: none;
+    font-weight: 500;
 }
 
 .sidebar-navigation a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: white;
+    color: #4D3227;
 }
 
 .sidebar-navigation a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+    background-color: #EBC999;
+    color: #4D3227;
 }
 
 .sidebar-navigation ul li a {
-    /* padding: 8px; */
     font-size: 0.9rem;
     display: block;
 }
