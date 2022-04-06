@@ -29,35 +29,52 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-2 px-0">
-                <div class="sidebar text-center sticky-top">
-                    <a class="active" href="#home">Home</a>
-                    <a class="dropdown-toggle" data-toggle="collapse" aria-expanded="false" href="#projectsSubmenu">Projects</a>
-                    <ul class="collapse list-unstyled" id="projectsSubmenu">
+            <nav class="col-2 px-0 sidebar text-center sticky-top">
+                <div class="sidebar-header">
+                    <img class="img-fluid rounded-circle p-2" id="sidebar-profile-img" src="img/newaffless.png" alt="Profile picture">
+                    <p class="p-0 m-0">Aidan Walbran<br>NeWaffless</p>
+                    <div class="mb-4">
+                        <!-- todo: link socials -->
+                        <a href="" class="me-4 text-reset">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar-navigation">
+                    <a class="active p-3" href="index.html">Home</a>
+                    <a class="dropdown-toggle p-3" data-toggle="collapse" aria-expanded="false" href="#projects-submenu">Projects</a>
+                    <ul class="collapse list-unstyled" id="projects-submenu">
                         <li>
-                            <a href="#">Lost Reef</a>
+                            <a class="p-2" href="pages/lost-reef.html">Lost Reef</a>
                         </li>
                         <li>
-                            <a href="#">Draw Together</a>
+                            <a class="p-2" href="pages/draw-together.html">Draw Together</a>
                         </li>
                         <li>
-                            <a href="#">Acorn Game</a>
+                            <a class="p-2" href="pages/acorn-game.html">Acorn Game</a>
                         </li>
                     </ul>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
+                    <a class="p-3" href="pages/about.html">About</a>
+                    <a class="p-3" href="pages/contact.html">Contact</a>
                 </div>
-            </div>
+            </nav>
 
             <div class="col-10">
                 <div class="container">
                     <section id="home">
-                        <img class="img-fluid p-4 rounded-circle" id="newaffless-picture" src="img/newaffless.png" alt="Profile picture">
+                        <img class="img-fluid p-4 rounded-circle" id="home-profile-img" src="img/newaffless.png" alt="Profile picture">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </section>
                     <hr>
@@ -96,17 +113,6 @@
                                 </div>
                             </div>
                         </div>
-                    </section>
-                    <hr>
-            
-                    <section id="about">
-                        <h1 class="text-center">ABOUT ME</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </section>
-                    <hr>
-            
-                    <section id="contact">
-                        <h1 class="text-center">CONTACT</h1>
                     </section>
                 </div>
             </div>

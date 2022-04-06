@@ -8,19 +8,14 @@ h1 {
     color: #984B43;
 }
 
-footer {
-    background-color: #18121E;
-    color: white;
-}
-
-.navbar {
+/* .navbar {
     background-color: #18121E;
 }
 
 .navbar-brand {
     font-family: 'Tahoma', sans-serif;
     letter-spacing: 1px;
-}
+} */
 
 .card:hover {
     cursor: pointer;
@@ -34,37 +29,42 @@ footer {
     background-color: #FAC898;
 } */
 
-#newaffless-picture {
-    width: 30%;
-    height: auto;
-}
-
 .sidebar {
-    width: 100%;
     background-color: #f1f1f1;
     height: 100vh;
-    overflow: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.sidebar a {
-    display: block;
+#sidebar-profile-img {
+    width: 50%;
+}
+
+.sidebar-navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-navigation a {
     color: black;
-    padding: 16px;
     text-decoration: none;
 }
 
-.sidebar a.active {
+.sidebar-navigation a.active {
     background-color: #04AA6D;
     color: white;
 }
 
-.sidebar a:hover:not(.active) {
+.sidebar-navigation a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
 
-@media screen and (max-width: 700px) {
-    .sidebar {
-        height: 100vh;
-    }
+.sidebar-navigation ul li a {
+    /* padding: 8px; */
+    font-size: 0.9rem;
+    display: block;
 }
