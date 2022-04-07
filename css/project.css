@@ -1,8 +1,43 @@
+h2, h3, h4, h5 {
+    color: #CD7700;
+    font-family: 'Sora', sans-serif;
+}
+
+h5 {
+    font-size: medium;
+}
+
+h4 {
+    font-size: large;
+}
+
 .project-content {
     padding-left: 10%;
     padding-right: 10%;
 }
 
 .project-header {
-    margin-bottom: 10px;
+    padding: 10px;
+    /* background-color: #F5F5F5;
+    border-width: 2px;
+    border-style: outset; */
+}
+
+.video-sidebar {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.project-features {
+    margin-bottom: 20px;
+}
+
+.project-features ul, .project-credits ul {
+    list-style-type: none;
+}
+
+.project-credits p {
+    font-size: small;
 }

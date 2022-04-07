@@ -20,7 +20,8 @@
     <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
 
     <link rel="stylesheet" 
-        href="https://fonts.googleapis.com/css?family=Open+Sans">    
+        href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@462&display=swap" rel="stylesheet">
     <link rel="stylesheet" 
         href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
@@ -76,82 +77,89 @@
             <div class="col-12 col-md-10">
                 <section class="container pt-4 project-content">
                     <h1>LOST REEF - VR</h1>
+                    <hr>
                     <div class="row project-header">
-                        <!-- fixme: create video to go here -->
-                        <div class="col-12 col-lg-6 embed-responsive embed-responsive-16by9 project-video">
+                        <!-- todo: create video to go here -->
+                        <div class="col-12 col-lg-6 mb-3 embed-responsive embed-responsive-16by9 project-video">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="Lost Reef video" allowfullscreen></iframe>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <h5>Roles:</h5>
-                            <p>Developer, Interaction Designer, Experience Designer</p>
-    
-                            <h5>Software / Languages used:</h5>
-                            <p>Unity, C#, HLSL, Blender</p>
-    
-                            <h5>Link to project:</h5>
-                            <a href="https://github.com/NeWaffless/VR_Lost-Reef" target="_blank">GH Repo</a>
+                        <div class="col-12 col-lg-6 mb-3 video-sidebar">
+                            <div>
+                                <h5>Roles</h5>
+                                <p>Developer, Interaction Designer, Experience Designer</p>
+                            </div>
+                            <div>
+                                <!-- todo: add software logos -->
+                                <h5>Software used</h5>
+                                <p>Unity, C#, Blender, HLSL</p>
+                            </div>
+                            <div>
+                                <!-- todo: add button -->
+                                <h5>GitHub repo</h5>
+                                <a href="https://github.com/NeWaffless/VR_Lost-Reef" target="_blank">GH Repo</a>
+                            </div>
                         </div>
                     </div>
                     <div>
                         <!-- todo: carousel -->
+                        <div class="project-description">
+                            <p><strong>Lost Reef</strong> is an interactive Virtual Reality experience, where the user swims through a coral reef as it slowly degrades around them. The intent behind the project is to make the user feel the impact of man-made pollution on reef ecosystems, using the medium of Virtual Reality to make the experience more personal and ‘real’. The experience is designed, developed and tested for the Oculus Quest 2. It was initially developed as part of a university project with a team of 4 designers/developers, and post completion, was further refined by a team of 2 designers/developers.</p>
+                        </div>
 
-                        <p><strong>Lost Reef</strong> is an interactive Virtual Reality experience, where the user swims through a coral reef as it slowly degrades around them. The intent behind the project is to make the user feel the impact of man-made pollution on reef ecosystems, using the medium of Virtual Reality to make the experience more personal and ‘real’. The experience is designed, developed and tested for the Oculus Quest 2. It was initially developed as part of a university project with a team of 4 designers/developers, and post completion, was further refined by a team of 2 designers/developers.</p>
-    
-                        <h5>Features:</h5>
-                        <ul>
-                            <li>
-                                Virtual reality
-                            </li>
+
+                        <div class="project-features">
+                            <h5>Features</h5>
                             <ul>
                                 <li>
-                                    immersive environment
+                                    Virtual reality
                                 </li>
+                                <ul>
+                                    <li>
+                                        > immersive environment
+                                    </li>
+                                    <li>
+                                        > designed for google vr design guidelines
+                                    </li>
+                                </ul>
                                 <li>
-                                    designed for google vr design guidelines
+                                    Stylised visuals
                                 </li>
+                                <ul>
+                                    <li>
+                                        > optimized for Oculus Quest 2 wireless performance
+                                    </li>
+                                    <li>
+                                        > reflection and water surface shaders
+                                    </li>
+                                    <li>
+                                        > models add environment complexity
+                                    </li>
+                                </ul>
+                                <li>
+                                    Holistic user experience
+                                </li>
+                                <ul>
+                                    <li>
+                                        > menus (start, pause, options)
+                                    </li>
+                                    <li>
+                                        > boat crash event
+                                    </li>
+                                    <li>
+                                        > experience can be replayed after finishing
+                                    </li>
+                                </ul>
                             </ul>
-                            <li>
-                                Stylised visuals
-                            </li>
-                            <ul>
-                                <li>
-                                    optimized for Oculus Quest 2 wireless performance
-                                </li>
-                                <li>
-                                    reflection and water surface shaders
-                                </li>
-                                <li>
-                                    models add environment complexity
-                                </li>
-                            </ul>
-                            <li>
-                                Holistic user experience
-                            </li>
-                            <ul>
-                                <li>
-                                    menus (start, pause, options)
-                                </li>
-                                <li>
-                                    boat crash event
-                                </li>
-                                <li>
-                                    experience can be replayed after finishing
-                                </li>
-                            </ul>
-                        </ul>
-    
-                        <h5>Credits:</h5>
-                        <ul>
-                            <li>
-    
-                            </li>
-                            <li>
-                                
-                            </li>
-                            <li>
-                                
-                            </li>
-                        </ul>
+                        </div>
+                        
+                        <div class="project-credits">
+                            <h5>Credits</h5>
+                            <p>
+                                Ryan Van Dyk - Modeling, Level Designer, Visual Designer, Visual Developer<br>
+                                Mustafa Aqil - Sound Designer, Modeling, User Testing<br>
+                                James Newton - Sketching, Level Designer, User Testing<br>
+                            </p>
+                        </div>
                     </div>
                 </section>
             </div>
