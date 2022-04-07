@@ -78,3 +78,21 @@ h1 {
     font-size: 0.9rem;
     display: block;
 }
+
+.sidebar-navigation ul li.active>a,
+a[aria-expanded="true"] {
+    background: #3B261E;
+    color: #EBC999;
+}
+
+#projects-submenu li a {
+    background: #3B261E;
+}
+
+#projects-submenu li a:hover {
+    background: #EBC999;
+}
+
+#projects-submenu li a.active {
+    background: white;
+}
