@@ -10,26 +10,9 @@ h1 {
     color: #4D3227;
 }
 
-/* .navbar {
-    background-color: #18121E;
-}
-
-.navbar-brand {
-    font-family: 'Tahoma', sans-serif;
-    letter-spacing: 1px;
-} */
-
 .card:hover {
     cursor: pointer;
 }
-
-/* #home, #about {
-    background-color: #E9F7FD;
-} */
-
-/* #projects, #contact {
-    background-color: #FAC898;
-} */
 
 .sidebar {
     background-color: #4D3227;
