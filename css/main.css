@@ -150,6 +150,10 @@ a[aria-expanded="true"] {
         font-size: 24px;
     }
 
+    .sidebar-navigation ul li a {
+        font-size: 20px;
+    }
+
     /* #sidebar-close-icon, #hamburger-icon { */
     #sidebar-close-icon {
         width: 96px;

@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/project.css">
+    <link rel="stylesheet" href="../css/acorn-game-carousel.css">
 </head>
 
 <body>
@@ -99,7 +100,7 @@
 
             <div class="col-12 col-md-10">
                 <section class="container pt-4 project-content">
-                    <h1>Acorn Game</h1>
+                    <h1>ACORN GAME</h1>
                     <hr>
                     <div class="row project-header">
                         <!-- todo: create video to go here OR image -->
@@ -109,7 +110,7 @@
                         <div class="col-12 col-lg-6 mb-3 video-sidebar">
                             <div>
                                 <h5>Roles</h5>
-                                <p>Developer</p>
+                                <p>Programmer</p>
                             </div>
                             <div>
                                 <h5>Software used</h5>
@@ -128,17 +129,33 @@
                         <div class="project-description">
                             <p>In <strong>Acorn Game</strong>, the player must guide an acorn through various mazes and obstacles to reach a finish point. The project is a small text based game run in the command line, and includes a way to play the game on various games boards parsed in from text file, as well as a solver algorithm that can perform a breadth-first or depth-first search on a given board. Acorn Game challenges the player through obstacles of walls, fire, and teleporters, whilst also testing their problem solving skills via tracking the amount of steps they took to reach the goal.</p>
                         </div>
-
+                        
                         <div class="carousel slide project-carousel" id="project-carousel" data-interval="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="../img/acorn-game/ag-carousel-1.jpg" alt="First slide">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="d-block w-75" src="../img/acorn-game/ag-carousel-1.png" alt="First slide">
+                                    </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="../img/acorn-game/ag-carousel-2.png" alt="Second slide">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="d-block w-75" src="../img/acorn-game/ag-carousel-2.png" alt="Second slide">
+                                    </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="../img/acorn-game/ag-carousel-3.jpg" alt="Third slide">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="d-block w-75" src="../img/acorn-game/ag-carousel-3.png" alt="Third slide">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="d-block w-75" src="../img/acorn-game/ag-carousel-4.png" alt="Fourth slide">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex justify-content-center">
+                                        <img class="d-block w-75" src="../img/acorn-game/ag-carousel-5.png" alt="Fifth slide">
+                                    </div>
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
@@ -153,7 +170,7 @@
 
                         <div class="project-features">
                             <h5>Features</h5>
-                            <ul>
+                            <ul id="project-features-list">
                                 <li>
                                     Game
                                 </li>
@@ -183,9 +200,11 @@
                                     <li>
                                         > breadth-first search algorithm (returns solution with least moves)
                                     </li>
+                                    <img class="w-100" src="../img/acorn-game/ag-inline-1.JPG" alt="BFS output">
                                     <li>
                                         > depth-first search algorithm
                                     </li>
+                                    <img class="w-100" src="../img/acorn-game/ag-inline-2.JPG" alt="DFS output">
                                 </ul>
                             </ul>
                         </div>

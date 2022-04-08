@@ -63,6 +63,7 @@ h4 {
 .figma-logo {
     stroke: #f5f5f5;
     width: 10px;
+    min-width: 10px;
     margin-right: 10px;
 }
 
@@ -74,17 +75,12 @@ h4 {
     margin-bottom: 30px;
 }
 
-.project-carousel {
-    margin-bottom: 30px;
-}
-
-/* FIXME: carousel height for different projects */
-.project-carousel img {
-    height: 150px !important;
-}
-
 .carousel-control-next, .carousel-control-prev {
     filter: invert(100%);
+}
+
+.project-carousel {
+    margin-bottom: 30px;
 }
 
 .project-features {
@@ -93,6 +89,10 @@ h4 {
 
 .project-features ul, .project-credits ul {
     list-style-type: none;
+}
+
+#project-features-list {
+    padding-left: 0;
 }
 
 .project-additional {
@@ -109,25 +109,14 @@ h4 {
     }
 }
 
+@media only screen and (max-width: 360px) {
+    .figma-logo {
+        display: none;
+    }
+}
 
 @media only screen and (min-width: 400px) {
     #gh-repo-button-icon {
         display: block;
-    }
-    
-    .project-carousel img {
-        height: 200px !important;
-    }
-}
-
-@media only screen and (min-width: 576px) {
-    .project-carousel img {
-        height: 270px !important;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .project-carousel img {
-        height: 400px !important;
     }
 }
