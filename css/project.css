@@ -78,9 +78,9 @@ h4 {
     margin-bottom: 30px;
 }
 
-/* FIXME: carousel height at different screen sizes */
+/* FIXME: carousel height for different projects */
 .project-carousel img {
-    height: 500px !important;
+    height: 150px !important;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -109,8 +109,25 @@ h4 {
     }
 }
 
+
 @media only screen and (min-width: 400px) {
     #gh-repo-button-icon {
         display: block;
+    }
+    
+    .project-carousel img {
+        height: 200px !important;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .project-carousel img {
+        height: 270px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .project-carousel img {
+        height: 400px !important;
     }
 }
