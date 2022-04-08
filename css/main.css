@@ -17,8 +17,22 @@ h1 {
 .sidebar {
     background-color: #4D3227;
     color: #EBC999;
-    display: block;
+    /* display: none; */
     overflow: hidden;
+}
+
+#sidebar-close-icon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 0 !important;
+    right: 0 !important;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar-close-button:hover {
+    cursor: pointer;
 }
 
 .sidebar-content {
@@ -29,12 +43,12 @@ h1 {
     flex-direction: column;
 }
 
-#sidebar-profile-img {
-    width: 50%;
-}
-
 .sidebar-header div a {
     text-decoration: none;
+}
+
+#sidebar-profile-img {
+    width: 40%;
 }
 
 .sidebar-navigation {
@@ -80,4 +94,50 @@ a[aria-expanded="true"] {
 
 #projects-submenu li a.active {
     background: white;
+}
+
+.topbar {
+    background-color: white;
+    width: 100%;
+}
+
+#topbar-content {
+    display: flex;
+    align-items: center;
+}
+
+#hamburger-icon-container:hover {
+    cursor: pointer;
+}
+
+#hamburger-icon {
+    width: 64px;
+    height: 64px;
+}
+
+#topbar-text {
+    color: #4D3227;
+    font-size: large;
+}
+
+@media (min-width: 576px) {
+    /* #sidebar-close-icon, #hamburger-icon { */
+    #sidebar-close-icon {
+        width: 96px;
+        height: 96px;
+    }
+
+    #sidebar-profile-img {
+        width: 30%;
+    }
+}
+ 
+@media (min-width: 768px) { 
+    .sidebar {
+        display: block !important;
+    }
+
+    #sidebar-profile-img {
+        width: 50%;
+    }
 }

@@ -36,11 +36,18 @@
 
     <main class="container-fluid">
         <div class="row justify-content-end">
-            <nav class="col-2 d-none d-md-block px-0 sidebar text-center fixed-top">
+            <nav class="col-md-2 px-0 sidebar text-center fixed-top collapse" id="sidebar">
+                <div class="d-block d-md-none btn" id="sidebar-close-button" data-toggle="collapse" href="#sidebar" role="button" aria-expanded="true" aria-controls="sidebar">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#EBC999" class="bi bi-x" id="sidebar-close-icon" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>
+                
+
                 <div class="sidebar-content">
                     <div class="sidebar-header">
                         <img class="img-fluid rounded-circle p-2" id="sidebar-profile-img" src="img/newaffless.png" alt="Profile picture">
-                        <p class="p-0 m-0"><strong>Aidan Walbran</strong><br>Game Programmer</p>
+                        <p class="p-0 m-2"><strong>Aidan Walbran</strong><br>Game Programmer</p>
                         <div class="mb-4">
                             <a href="https://github.com/NeWaffless" target="_blank" class="me-4 text-reset">
                                 <i class="bi bi-github"></i>
@@ -53,6 +60,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="sidebar-navigation">
                         <a class="active p-3" href="index.html">Home</a>
                         <a class="dropdown-toggle p-3" data-toggle="collapse" aria-expanded="false" href="#projects-submenu">Projects</a>
@@ -73,10 +81,24 @@
                     </div>
                 </div>
             </nav>
+
+            <div class="row m-0 topbar d-block d-md-none sticky-top">
+                <div class="col">
+                    <div id="topbar-content">
+                        <a class="btn" id="hamburger-icon-container" data-toggle="collapse" href="#sidebar" role="button" aria-expanded="false" aria-controls="sidebar">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" id="hamburger-icon" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </a>
+                        <p class="m-0" id="topbar-text">Home</p>
+                    </div>
+                    <hr class="m-0">
+                </div>
+            </div>
             
             <div class="col-12 col-md-10">
                 <div class="container">
-                    <section class="text-center align-middle" id="home">
+                    <section class="text-center align-middle pt-4" id="home">
                         <!-- <img class="img-fluid m-4 p-4 rounded-circle" id="home-profile-img" src="img/newaffless.png" alt="Profile picture"> -->
                         <!-- todo: link 'work' to project & 'touch' to contact -->
                         <h5>Hello. My name is Aidan and I'm a recent university graduate looking for work as a games programmer. Feel free to look at my work or to get in touch.</h5>
@@ -86,7 +108,7 @@
                     <section id="projects">
                         <h1 class="text-center">PROJECTS</h1>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 mb-4">
                                 <div class="card" onclick="location.href = 'pages/lost-reef.html'">
                                     <img class="card-img-top" src="img/lost-reef/lr-card.jpg" alt="Card image cap">
                                     <div class="card-body">
@@ -96,7 +118,7 @@
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 mb-4">
                                 <div class="card" onclick="location.href = 'pages/draw-together.html'">
                                     <img class="card-img-top" src="img/draw-together.png" alt="Card image cap">
                                     <div class="card-body">
@@ -106,7 +128,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 mb-4">
                                 <div class="card" onclick="location.href = 'pages/acorn-game.html'">
                                     <img class="card-img-top" src="img/acorn-game.jpg" alt="Card image cap">
                                     <div class="card-body">
