@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html  class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Acorn Game | Aidan Walbran</title>
+    <meta name="description" content="Personal Website Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="author" content="Aidan Walbran">
+
+    <meta property="og:title" content="Aidan Walbran">
+    <meta property="og:type" content="Website">
+    <!-- todo: og:url -->
+    <meta property="og:url" content="">
+    <meta property="og:description" content="Personal Website Portfolio">
+    <!-- todo: og:image -->
+    <meta property="og:image" content="">
+    
+    
+    <!-- todo: create favicon -->
+    <!-- <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
+    <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+    <link rel="stylesheet" 
+        href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@462&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/project.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <nav class="col-md-2 px-0 sidebar text-center fixed-top collapse" id="sidebar">
+                <a id="sidebar-close-button" data-toggle="collapse" href="#sidebar" role="button" aria-expanded="true" aria-controls="sidebar">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#EBC999" class="bi bi-x" id="sidebar-close-icon" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </a>
+
+                <div class="sidebar-content">
+                    <div class="sidebar-header">
+                        <img class="img-fluid rounded-circle p-2" id="sidebar-profile-img" src="../img/newaffless.png" alt="Profile picture">
+                        <p class="p-0 m-2"><strong>Aidan Walbran</strong><br>Game Programmer</p>
+                        <div class="mb-4">
+                            <a href="https://github.com/NeWaffless" target="_blank" class="me-4 text-reset">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/aidan-walbran/" target="_blank" class="me-4 text-reset">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://twitter.com/NeWaffless" target="_blank" class="me-4 text-reset">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-navigation">
+                        <a class="p-3" href="../index.html">Home</a>
+                        <a class="dropdown-toggle p-3" data-toggle="collapse" aria-expanded="true" href="#projects-submenu">Projects</a>
+                        <ul class="collapse show list-unstyled" id="projects-submenu">
+                            <li>
+                                <a class="p-2" href="lost-reef.html">Lost Reef</a>
+                            </li>
+                            <li>
+                                <a class="p-2" href="draw-together.html">Draw Together</a>
+                            </li>
+                            <li>
+                                <a class="active p-2" href="acorn-game.html">Acorn Game</a>
+                            </li>
+                        </ul>
+                        <a class="p-3" href="about.html">About</a>
+                        <a class="p-3" href="resume.html">Resume</a>
+                        <a class="p-3" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="row m-0 pt-0 topbar d-block d-md-none sticky-top no-gutters">
+                <div class="col">
+                    <div id="topbar-content">
+                        <a class="btn" id="hamburger-icon-container" data-toggle="collapse" href="#sidebar" role="button" aria-expanded="false" aria-controls="sidebar">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#4D3227" class="bi bi-list" id="hamburger-icon" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </a>
+                        <p class="m-0" id="topbar-text">Projects > Acorn Game</p>
+                    </div>
+                    <hr class="m-0">
+                </div>
+            </div>
+
+            <div class="col-12 col-md-10">
+                <section class="container pt-4 project-content">
+                    <h1>Acorn Game</h1>
+                    <hr>
+                    <div class="row project-header">
+                        <!-- todo: create video to go here OR image -->
+                        <div class="col-12 col-lg-6 mb-3 embed-responsive embed-responsive-16by9 project-video">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="Acorn Game video" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3 video-sidebar">
+                            <div>
+                                <h5>Roles</h5>
+                                <p>Developer</p>
+                            </div>
+                            <div>
+                                <h5>Software used</h5>
+                                <p>Python3</p>
+                            </div>
+                            <div>
+                                <a class="btn my-button" id="gh-repo-button" role="button" href="https://github.com/NeWaffless/Acorn-Game" target="_blank">
+                                    <i class="bi bi-github p-0 mr-2" id="gh-repo-button-icon"></i>
+                                    <p class="p-0 m-0">gh repo</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="project-description">
+                            <p>In <strong>Acorn Game</strong>, the player must guide an acorn through various mazes and obstacles to reach a finish point. The project is a small text based game run in the command line, and includes a way to play the game on various games boards parsed in from text file, as well as a solver algorithm that can perform a breadth-first or depth-first search on a given board. Acorn Game challenges the player through obstacles of walls, fire, and teleporters, whilst also testing their problem solving skills via tracking the amount of steps they took to reach the goal.</p>
+                        </div>
+
+                        <div class="carousel slide project-carousel" id="project-carousel" data-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/acorn-game/ag-carousel-1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/acorn-game/ag-carousel-2.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/acorn-game/ag-carousel-3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+
+                        <div class="project-features">
+                            <h5>Features</h5>
+                            <ul>
+                                <li>
+                                    Game
+                                </li>
+                                <ul>
+                                    <li>
+                                        > runs in the command line
+                                    </li>
+                                    <li>
+                                        > user input via text
+                                    </li>
+                                </ul>
+                                <li>
+                                    Board parser
+                                </li>
+                                <ul>
+                                    <li>
+                                        > checks validity of text file and translates to game board object
+                                    </li>
+                                    <li>
+                                        > users can make own board (specifications found in repo)
+                                    </li>
+                                </ul>
+                                <li>
+                                    Board solver
+                                </li>
+                                <ul>
+                                    <li>
+                                        > breadth-first search algorithm (returns solution with least moves)
+                                    </li>
+                                    <li>
+                                        > depth-first search algorithm
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
+
+                        <div class="project-additional">
+                            <h5>Work-In-Progress</h5>
+                            <p>As of this moment in time, this project is being adjusted to run within a web browser so that it can be played online, with no downloads or setup required. If you’re keen to play the game now, please refer to the instructions in the <a href="https://github.com/NeWaffless/Acorn-Game" target="_blank">GitHub repository</a>.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Boot strap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
+</body>
+</html>
