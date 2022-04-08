@@ -30,6 +30,26 @@ h4 {
     justify-content: space-evenly;
 }
 
+.gh-repo-button {
+    background-color: #4D3227;
+    color: #EBC999;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gh-repo-button:hover {
+    background-color: #EBC999;
+    color: #4D3227;
+}
+
+#gh-repo-button-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
 .project-description {
     margin-bottom: 30px;
 }
