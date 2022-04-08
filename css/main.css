@@ -145,7 +145,7 @@ a[aria-expanded="true"] {
     font-size: large;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .sidebar {
         font-size: 24px;
     }
@@ -157,13 +157,13 @@ a[aria-expanded="true"] {
     }
 }
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     #sidebar-profile-img {
         width: 30%;
     }
 }
  
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .sidebar {
         display: block !important;
     }
