@@ -2,6 +2,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    background-color: #F2CEAE;
+}
+
 h1 {
     font-family: 'Sora', sans-serif;
     font-size: 3rem;
@@ -35,7 +39,7 @@ h1 {
 
 .sidebar {
     background-color: #4D3227;
-    color: #EBC999;
+    color: #F2CEAE;
     height: 100vh;
     width: 100%;
     /* display: none; */
@@ -83,18 +87,18 @@ h1 {
 }
 
 .sidebar-navigation a {
-    color: #EBC999;
+    color: #F2CEAE;
     text-decoration: none;
     font-weight: 500;
 }
 
 .sidebar-navigation a.active {
-    background-color: white;
+    background-color: #F2CEAE;
     color: #4D3227;
 }
 
 .sidebar-navigation a:hover:not(.active) {
-    background-color: #EBC999;
+    background-color: #F2CEAE;
     color: #4D3227;
 }
 
@@ -106,7 +110,7 @@ h1 {
 .sidebar-navigation ul li.active>a,
 a[aria-expanded="true"] {
     background: #3B261E;
-    color: #EBC999;
+    color: #F2CEAE;
 }
 
 #projects-submenu li a {
@@ -114,15 +118,15 @@ a[aria-expanded="true"] {
 }
 
 #projects-submenu li a:hover {
-    background: #EBC999;
+    background: #F2CEAE;
 }
 
 #projects-submenu li a.active {
-    background: white;
+    background-color: #F2CEAE;
 }
 
 .topbar {
-    background-color: white;
+    background-color: #4D3227;
     width: 100%;
 }
 
@@ -141,7 +145,7 @@ a[aria-expanded="true"] {
 }
 
 #topbar-text {
-    color: #4D3227;
+    color: #F2CEAE;
     font-size: large;
 }
 
