@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 #home {
     height: 100vh;
     display: flex;
@@ -5,7 +9,35 @@
 }
 
 #introduction-text {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+#projects {
+    border-left: 3px solid var(--dark-brown);
+    margin-top: 10px;
+    max-height: 97vh;
+}
+
+#projects-mask {
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 5%);
+    mask-image: linear-gradient(to top, transparent 0%, black 5%);
+}
+
+#project-card-wrapper {
+    max-height: 97vh;
+    overflow-y: scroll;
+}
+
+#project-card-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+#projects-title {
+    font-family: 'Sora', sans-serif;
+    color: var(--dark-brown);
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
 }
 
 .card-img-top {
@@ -18,5 +50,4 @@
     #home {
         justify-content: center;
     }
-    
 }

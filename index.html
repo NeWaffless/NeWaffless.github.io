@@ -98,38 +98,67 @@
                 <div class="container">
                     <div class="row">
                         <section class="col-12 col-md-6 pt-4" id="home">
-                            <!-- <img class="img-fluid m-4 p-4 rounded-circle" id="home-profile-img" src="img/newaffless.png" alt="Profile picture"> -->
                             <h1>HELLO.</h1>
-                            <h2 id="introduction-text">My name is <strong>Aidan</strong>, and I develop games for fun, and hopefully soon, money. 
-                                Check out what I've made on the right, and can get in touch anytime <a href="pages/contact.html" id="contact-link">here.</a>
+                            <!-- todo: add responsive text change for smaller screen sizes (on the right - below) -->
+                            <h2 id="introduction-text">My name is <strong>Aidan</strong>. I develop games. 
+                                Check out what I've made on the right, and get in touch anytime <a href="pages/contact.html" id="contact-link">here.</a>
                             </h2>
                             <p>Currently looking for work.</p>
                         </section>
-                        <hr>
-                
-                        <section class="col-12 col-md-6 py-2" id="projects">
-                            <div class="card m-3" onclick="location.href = 'pages/lost-reef.html'">
-                                <img class="card-img-top" src="img/lost-reef/lr-card.jpg" alt="Lost Reef project image">
-                                <div class="card-body">
-                                    <h5 class="card-title">Lost Reef</h5>
-                                    <!-- list of languages / software -->
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div class="card m-3" onclick="location.href = 'pages/draw-together.html'">
-                                <img class="card-img-top" src="img/draw-together/dt-card.png" alt="Draw Together project image">
-                                <div class="card-body">
-                                    <h5 class="card-title">Draw Together</h5>
-                                    <!-- list of languages / software -->
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                            <div class="card m-3" onclick="location.href = 'pages/acorn-game.html'">
-                                <img class="card-img-top" src="img/acorn-game/ag-card.jpg" alt="Acorn Game project image">
-                                <div class="card-body">
-                                    <h5 class="card-title">Acorn Game</h5>
-                                    <!-- list of languages / software -->
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                        <!-- <section class="col-12 col-md-6" id="projects" onmouseover="this.style.overflowY='scroll'"
+                            onmouseout="this.style.overflowY='hidden'"> -->
+                        <section class="col-12 col-md-6" id="projects">
+                            <div id="projects-mask">
+                                <div id="project-card-wrapper">
+                                    <h1 id="projects-title">PROJECTS</h1>
+                                    <div class="card m-3" onclick="location.href = 'pages/lost-reef.html'">
+                                        <img class="card-img-top" src="img/lost-reef/lr-card.jpg" alt="Lost Reef project image">
+                                        <div class="card-body p-2">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <h5 class="card-title">Lost Reef</h5>
+                                                    <p class="card-text">Feel the effects of man-made pollution on a reef ecosystem through an interactive, Virtual Reality experience.</p>
+                                                </div>
+                                                <!-- todo: software used, for ease, make one image -->
+                                                <div class="col-6">
+                                                    <p class="card-text">Developed using Unity, Blender, PlasticSCM</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="card m-3" onclick="location.href = 'pages/lost-reef.html'">
+                                        <img class="card-img-top" src="img/lost-reef/lr-card.jpg" alt="Lost Reef project image">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title">Lost Reef</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="card m-3" onclick="location.href = 'pages/lost-reef.html'">
+                                        <img class="card-img-top" src="img/lost-reef/lr-card.jpg" alt="Lost Reef project image">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title">Lost Reef</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card m-3" onclick="location.href = 'pages/lost-reef.html'">
+                                        <img class="card-img-top" src="img/lost-reef/lr-card.jpg" alt="Lost Reef project image">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title">Lost Reef</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="card m-3" onclick="location.href = 'pages/lost-reef.html'">
+                                        <img class="card-img-top" src="img/lost-reef/lr-card.jpg" alt="Lost Reef project image">
+                                        <div class="card-body p-2">
+                                            <h5 class="card-title">Lost Reef</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
@@ -138,27 +167,31 @@
             </div>
         </div>
     </main>
-
     
-
-    <!-- <footer class="container-fluid">
-        <div class="row p-4 text-center">
-            <div class="col">
-                © 2022 Copyright: Aidan Walbran
-            </div>
-            <div class="col">
-                <a href="" class="me-4 text-reset">
-                    <i class="bi bi-github"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="bi bi-linkedin"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                    <i class="bi bi-twitter"></i>
-                </a>
+    
+    <!-- <section class="col-12 col-md-6 py-2" id="projects">
+        <div class="card m-3" onclick="location.href = 'pages/lost-reef.html'">
+            <img class="card-img-top" src="img/lost-reef/lr-card.jpg" alt="Lost Reef project image">
+            <div class="card-body">
+                <h5 class="card-title">Lost Reef</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
-    </footer> -->
+        <div class="card m-3" onclick="location.href = 'pages/draw-together.html'">
+            <img class="card-img-top" src="img/draw-together/dt-card.png" alt="Draw Together project image">
+            <div class="card-body">
+                <h5 class="card-title">Draw Together</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card m-3" onclick="location.href = 'pages/acorn-game.html'">
+            <img class="card-img-top" src="img/acorn-game/ag-card.jpg" alt="Acorn Game project image">
+            <div class="card-body">
+                <h5 class="card-title">Acorn Game</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </section> -->
 
     <!-- Boot strap -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
