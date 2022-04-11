@@ -1,5 +1,5 @@
 h2, h3, h4, h5 {
-    color: #CD7700;
+    color: var(--secondary);
     font-family: 'Sora', sans-serif;
 }
 
@@ -47,7 +47,7 @@ h4 {
 }
 
 .my-button:hover {
-    background-color: #F2CEAE;
+    background-color: var(--main-cream);
     color: #333;
 }
 

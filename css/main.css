@@ -1,17 +1,26 @@
+:root {
+    --main-brown: #4D3227;
+    --dark-brown: #3B261E;
+    --main-cream: #F2CEAE;
+    --secondary: #F28705;
+    --link: #CC0216;
+    --link-dark: #80010D;
+}
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background-color: #F2CEAE;
+    background-color: var(--main-cream);
+    color: var(--dark-brown);
 }
 
 h1 {
     font-family: 'Sora', sans-serif;
     font-size: 3rem;
     font-weight: 800;
-    font-style: extrabold;
-    color: #4D3227;
+    color: var(--dark-brown);
 }
 
 ::-webkit-scrollbar {
@@ -33,13 +42,22 @@ h1 {
     background: #555; 
 }
 
+a {
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--link-dark);
+    text-decoration: none;
+}
+
 .card:hover {
     cursor: pointer;
 }
 
 .sidebar {
-    background-color: #4D3227;
-    color: #F2CEAE;
+    background-color: var(--main-brown);
+    color: var(--main-cream);
     height: 100vh;
     width: 100%;
     /* display: none; */
@@ -87,19 +105,19 @@ h1 {
 }
 
 .sidebar-navigation a {
-    color: #F2CEAE;
+    color: var(--main-cream);
     text-decoration: none;
     font-weight: 500;
 }
 
 .sidebar-navigation a.active {
-    background-color: #F2CEAE;
-    color: #4D3227;
+    background-color: var(--main-cream);
+    color: var(--main-brown);
 }
 
 .sidebar-navigation a:hover:not(.active) {
-    background-color: #F2CEAE;
-    color: #4D3227;
+    background-color: var(--main-cream);
+    color: var(--main-brown);
 }
 
 .sidebar-navigation ul li a {
@@ -109,24 +127,24 @@ h1 {
 
 .sidebar-navigation ul li.active>a,
 a[aria-expanded="true"] {
-    background: #3B261E;
-    color: #F2CEAE;
+    background: var(--dark-brown);
+    color: var(--main-cream);
 }
 
 #projects-submenu li a {
-    background: #3B261E;
+    background: var(--dark-brown);
 }
 
 #projects-submenu li a:hover {
-    background: #F2CEAE;
+    background: var(--main-cream);
 }
 
 #projects-submenu li a.active {
-    background-color: #F2CEAE;
+    background-color: var(--main-cream);
 }
 
 .topbar {
-    background-color: #4D3227;
+    background-color: var(--main-brown);
     width: 100%;
 }
 
@@ -145,7 +163,7 @@ a[aria-expanded="true"] {
 }
 
 #topbar-text {
-    color: #F2CEAE;
+    color: var(--main-cream);
     font-size: large;
 }
 
