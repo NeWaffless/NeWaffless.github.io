@@ -19,31 +19,41 @@ body {
 }
 
 #projects-mask {
-    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 5%);
-    mask-image: linear-gradient(to top, transparent 0%, black 5%);
+    /* -webkit-mask-image: linear-gradient(to top, transparent 0%, black 5%);
+    mask-image: linear-gradient(to top, transparent 0%, black 5%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#project-card-wrapper {
-    max-height: 97vh;
+#projects-card-wrapper {
+    max-height: 88vh;
     overflow-y: scroll;
+    width: 75%;
 }
 
-#project-card-wrapper::-webkit-scrollbar {
+#projects-card-wrapper::-webkit-scrollbar {
     display: none;
 }
 
 #projects-title {
     font-family: 'Sora', sans-serif;
     color: var(--dark-brown);
-    text-align: center;
-    margin: 0;
-    margin-top: 5px;
 }
 
-.card-img-top {
+.project-img {
+    background-color: transparent;
     width: 100%;
     max-height: 200px;
-    object-fit: none;
+    object-fit: contain;
+}
+
+.project-img:hover {
+    cursor: pointer;
+}
+
+.img-separator {
+    background-color: var(--dark-brown);
 }
 
 @media only screen and (min-width: 768px) {
