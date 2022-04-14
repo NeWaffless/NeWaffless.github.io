@@ -1,15 +1,5 @@
-h2, h3, h4, h5 {
-    color: var(--secondary);
-    font-family: 'Sora', sans-serif;
-}
-
 h4 {
     font-size: large;
-}
-
-#about {
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 #skills, #skills ul {

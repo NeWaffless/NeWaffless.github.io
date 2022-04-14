@@ -1,19 +1,9 @@
-h2, h3, h4, h5 {
-    color: var(--secondary);
-    font-family: 'Sora', sans-serif;
-}
-
 h5 {
     font-size: medium;
 }
 
 h4 {
     font-size: large;
-}
-
-.project-content {
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .project-header {

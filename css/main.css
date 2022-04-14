@@ -16,11 +16,18 @@ body {
     color: var(--dark-brown);
 }
 
-h1 {
+h1, h4, h5 {
     font-family: 'Sora', sans-serif;
+}
+
+h1 {
     font-size: 3rem;
     font-weight: 800;
     color: var(--dark-brown);
+}
+
+h4, h5 {
+    color: var(--secondary);
 }
 
 ::-webkit-scrollbar {
@@ -165,6 +172,11 @@ a[aria-expanded="true"] {
 #topbar-text {
     color: var(--main-cream);
     font-size: large;
+}
+
+.page-main-container {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 @media only screen and (max-width: 767px) {
