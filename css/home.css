@@ -1,5 +1,6 @@
 body {
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 #home {
@@ -13,7 +14,7 @@ body {
 }
 
 #projects {
-    border-left: 3px solid var(--dark-brown);
+    border: none;
     margin-top: 10px;
     max-height: 97vh;
 }
@@ -57,7 +58,15 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+    body {
+        overflow-y: hidden;
+    }
+
     #home {
         justify-content: center;
+    }
+
+    #projects {
+        border-left: 3px solid var(--dark-brown);
     }
 }

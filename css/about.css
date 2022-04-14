@@ -1,0 +1,33 @@
+h2, h3, h4, h5 {
+    color: var(--secondary);
+    font-family: 'Sora', sans-serif;
+}
+
+h4 {
+    font-size: large;
+}
+
+#about {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#skills, #skills ul {
+    list-style-type: none;
+}
+
+#skills {
+    padding-left: 0;
+}
+
+#personal-img {
+    max-height: 300px;
+}
+
+#about-socials {
+    font-size: 1.2rem;
+}
+
+#resume-link {
+    margin: 0;
+}
