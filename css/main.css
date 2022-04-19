@@ -109,6 +109,15 @@ i:hover {
     width: 40%;
 }
 
+#sidebar-email {
+    color: var(--main-cream);
+    font-size: 0.8em;
+}
+
+#sidebar-email:hover {
+    opacity: 80%;
+}
+
 .sidebar-navigation {
     width: 100%;
     display: flex;
@@ -156,6 +165,11 @@ a[aria-expanded="true"] {
 
 #projects-submenu li a.active {
     background-color: var(--main-cream);
+}
+
+.copyright {
+    font-size: 0.8em;
+    opacity: 80%;
 }
 
 .topbar {
