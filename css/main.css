@@ -2,8 +2,8 @@
     --main-brown: #4D3227;
     --dark-brown: #3B261E;
     --main-cream: #F2CEAE;
-    --secondary: #F28705;
-    --link: #CC0216;
+    --secondary: #D95204;
+    --link: #D90416;
     --link-dark: #80010D;
 }
 
@@ -56,6 +56,10 @@ a {
 a:hover {
     color: var(--link-dark);
     text-decoration: none;
+}
+
+i:hover {
+    opacity: 80%;
 }
 
 .card:hover {
@@ -136,6 +140,10 @@ a:hover {
 a[aria-expanded="true"] {
     background: var(--dark-brown);
     color: var(--main-cream);
+}
+
+#projects-submenu {
+    margin-bottom: 0;
 }
 
 #projects-submenu li a {

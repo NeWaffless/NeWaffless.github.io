@@ -6,11 +6,12 @@ h4 {
     font-size: large;
 }
 
+.sidebar-navigation a[aria-expanded="false"] {
+    background-color: var(--dark-brown);
+}
+
 .project-header {
     padding: 10px;
-    /* background-color: #F5F5F5;
-    border-width: 2px;
-    border-style: outset; */
 }
 
 .video-sidebar {
