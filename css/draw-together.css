@@ -1,0 +1,10 @@
+.project-carousel img {
+    min-width: 230px;
+}
+
+@media only screen and (min-width: 768px) {
+    .technical-implementation-img {
+        width: 75%;
+        max-height: 500px;
+    }
+}
