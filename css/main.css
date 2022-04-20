@@ -109,15 +109,6 @@ i:hover {
     width: 40%;
 }
 
-#sidebar-email {
-    color: var(--main-cream);
-    font-size: 0.8em;
-}
-
-#sidebar-email:hover {
-    opacity: 80%;
-}
-
 .sidebar-navigation {
     width: 100%;
     display: flex;
