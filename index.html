@@ -103,15 +103,18 @@
             <div class="col-12 col-md-10">
                 <div class="container">
                     <div class="row">
-                        <section class="col-12 col-md-6 pt-4" id="home">
+                        <section class="col-12 col-md-6" id="home">
                             <h1>HELLO.</h1>
-                            <!-- todo: add responsive text change for smaller screen sizes (on the right - below) -->
-                            <h2 id="introduction-text">My name is <strong>Aidan</strong>. I develop games. 
-                                Check out what I've made on the right, and get in touch anytime <a href="pages/contact.html" id="contact-link">here.</a>
+                            <h2 class="d-none d-md-block" id="introduction-text-md">My name is <strong>Aidan</strong>. I develop games. 
+                                Check out what I've made on the right, or get in touch anytime <a href="pages/contact.html" id="contact-link">here.</a>
                             </h2>
-                            <p>Currently looking for work.</p>
+                            <h2 class="d-block d-md-none" id="introduction-text">My name is <strong>Aidan</strong>. I develop games. 
+                                Check out what I've made below, or get in touch anytime <a href="pages/contact.html" id="contact-link">here.</a>
+                            </h2>
+                            <p id="looking-for-work">Currently looking for work.</p>
+                            <!-- todo: possibly add scroll indicator -->
                         </section>
-
+                        
                         <section class="col-12 col-md-6" id="projects">
                             <div id="projects-mask">
                                 <h1 class="my-4" id="projects-title">PROJECTS</h1>

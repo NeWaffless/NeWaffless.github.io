@@ -4,18 +4,20 @@ body {
 }
 
 #home {
-    height: 100vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-#introduction-text {
-    padding-bottom: 30px;
+#looking-for-work {
+    padding-top: 30px;
 }
 
 #projects {
     border: none;
     margin-top: 10px;
+    margin-bottom: 5vh;
     max-height: 97vh;
 }
 
@@ -63,10 +65,13 @@ body {
     }
 
     #home {
-        justify-content: center;
+        height: 100vh;
+        padding-top: 0;
+        /* justify-content: center; */
     }
 
     #projects {
         border-left: 3px solid var(--dark-brown);
+        margin-bottom: 0px;
     }
 }

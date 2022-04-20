@@ -71,7 +71,6 @@ i:hover {
     color: var(--main-cream);
     height: 100vh;
     width: 100%;
-    /* display: none; */
     overflow-y: scroll;
 }
 

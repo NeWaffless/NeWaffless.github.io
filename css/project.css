@@ -38,8 +38,8 @@ h4 {
 }
 
 .my-button:hover {
-    background-color: var(--main-cream);
-    color: #333;
+    opacity: 80%;
+    color: #f5f5f5;
 }
 
 #gh-repo-button-icon {
@@ -59,7 +59,7 @@ h4 {
 }
 
 .my-button:hover .figma-logo {
-    stroke: #333;
+    stroke: #f5f5f5;
 }
 
 .project-description {
