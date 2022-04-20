@@ -1,7 +1,13 @@
-#contact-email {
-    font-size: 1.5rem;
+a {
+    word-wrap: break-word;
 }
 
 #contact-socials {
-    font-size: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-socials i {
+    font-size: 2rem;
 }
