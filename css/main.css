@@ -149,11 +149,7 @@ a[aria-expanded="true"] {
     background: var(--dark-brown);
 }
 
-#projects-submenu li a:hover {
-    background: var(--main-cream);
-}
-
-#projects-submenu li a.active {
+#projects-submenu li a:hover, #projects-submenu li a.active {
     background-color: var(--main-cream);
 }
 

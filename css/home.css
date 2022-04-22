@@ -47,16 +47,18 @@ body {
 .project-img {
     background-color: transparent;
     width: 100%;
-    max-height: 200px;
     object-fit: contain;
+    transition: transform 0.6s;
 }
 
 .project-img:hover {
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .img-separator {
-    background-color: var(--dark-brown);
+    border-width: 2px;
+    border-color: var(--dark-brown);
 }
 
 @media only screen and (min-width: 768px) {
