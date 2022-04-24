@@ -33,6 +33,7 @@ body {
     max-height: 88vh;
     overflow-y: scroll;
     width: 75%;
+    overflow-x: hidden;
 }
 
 #projects-card-wrapper::-webkit-scrollbar {
