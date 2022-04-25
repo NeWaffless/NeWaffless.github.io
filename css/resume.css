@@ -1,8 +1,19 @@
-ul {
-    list-style-type: none;
-    padding-left: 0;
+h4 {
+    font-size: large;
 }
 
-ol {
+h5 {
+    font-size: medium;
+    color: var(--dark-brown);
+}
+
+ul {
     list-style-type: none;
+}
+
+@media only screen and (min-width: 768px) {
+    #content-main {
+        border-right: 2px solid var(--dark-brown);
+        margin-bottom: 0px;
+    }
 }

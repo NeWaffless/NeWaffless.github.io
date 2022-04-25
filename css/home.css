@@ -74,7 +74,7 @@ body {
     }
 
     #projects {
-        border-left: 3px solid var(--dark-brown);
+        border-left: 2px solid var(--dark-brown);
         margin-bottom: 0px;
     }
 }
