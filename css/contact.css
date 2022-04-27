@@ -11,3 +11,39 @@ a {
 #contact-socials i {
     font-size: 2rem;
 }
+
+#contact-email {
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 410px) {
+    #contact-email {
+        font-size: 0.8em;
+    }
+
+    #contact-email-icon {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #contact-email {
+        font-size: 0.7em;
+    }
+
+    #contact-email-icon {
+        font-size: 1.5rem !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 310px) {
+    #contact-email {
+        font-size: 0.6em;
+    }
+
+    #contact-email-icon {
+        font-size: 1.2rem !important;
+    }
+}

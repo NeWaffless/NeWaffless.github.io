@@ -19,10 +19,32 @@ p {
     max-height: 300px;
 }
 
+#about-email {
+    font-size: 1em;
+}
+
 #about-socials {
     font-size: 1.5rem;
 }
 
 #resume-link {
     margin: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 850px) {
+    #about-email {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 992px) {
+    #about-email {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1096px) {
+    #about-email {
+        font-size: 0.8em;
+    }
 }
