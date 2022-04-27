@@ -14,7 +14,8 @@ body {
     padding-bottom: 30px;
 }
 
-#projects {display: flex;
+#projects {
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
@@ -27,13 +28,12 @@ body {
     width: 75%;
 }
 
-#projects-cards::-webkit-scrollbar, #projects::-webkit-scrollbar {
+#projects::-webkit-scrollbar, #projects-cards::-webkit-scrollbar  {
     display: none;
 }
 
-#projects-title {
-    font-family: 'Sora', sans-serif;
-    color: var(--dark-brown);
+#projects, #projects-cards {
+    scrollbar-width: none;
 }
 
 .project-img {

@@ -80,6 +80,10 @@ i:hover {
     display: none;
 }
 
+.sidebar {
+    scrollbar-width: none;
+}
+
 #sidebar-close-icon {
     position: absolute;
     width: 64px;
