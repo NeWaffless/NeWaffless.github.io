@@ -8,8 +8,16 @@ a {
     flex-direction: column;
 }
 
+#contact-socials div {
+    margin-top: 20px;
+}
+
 #contact-socials i {
     font-size: 2rem;
+}
+
+#contact-socials i:hover {
+    opacity: 100%;
 }
 
 #contact-email {
@@ -35,8 +43,6 @@ a {
         font-size: 1.5rem !important;
     }
 }
-
-
 
 @media only screen and (max-width: 310px) {
     #contact-email {
