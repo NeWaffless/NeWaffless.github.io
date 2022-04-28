@@ -30,7 +30,7 @@ a {
     }
 
     #contact-email-icon {
-        font-size: 1.5rem !important;
+        font-size: 2rem !important;
     }
 }
 
@@ -40,16 +40,16 @@ a {
     }
 
     #contact-email-icon {
-        font-size: 1.5rem !important;
+        font-size: 2rem !important;
     }
 }
 
-@media only screen and (max-width: 310px) {
+@media only screen and (max-width: 318px) {
     #contact-email {
         font-size: 0.6em;
     }
 
     #contact-email-icon {
-        font-size: 1.2rem !important;
+        font-size: 1.5rem !important;
     }
 }
