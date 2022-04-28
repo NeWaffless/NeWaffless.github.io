@@ -34,12 +34,12 @@ a {
     color: var(--link);
 }
 
-a:hover {
+a:hover, a:active {
     color: var(--link-dark);
     text-decoration: none;
 }
 
-i:hover {
+i:hover, i:active {
     opacity: 80%;
 }
 
@@ -63,6 +63,10 @@ i:hover {
     scrollbar-width: none;
 }
 
+#sidebar-close-button:hover {
+    cursor: pointer;
+}
+
 #sidebar-close-icon {
     position: absolute;
     width: 64px;
@@ -73,8 +77,8 @@ i:hover {
     padding: 0;
 }
 
-#sidebar-close-button:hover {
-    cursor: pointer;
+#sidebar-close-icon:hover, #sidebar-close-icon:active {
+    opacity: 80%;
 }
 
 .sidebar-content {
@@ -162,6 +166,10 @@ a[aria-expanded="true"] {
     height: 64px;
 }
 
+#hamburger-icon:hover, #hamburger-icon:active {
+    opacity: 80%;
+}
+
 #topbar-text {
     color: var(--main-cream);
     font-size: large;
@@ -212,5 +220,12 @@ a[aria-expanded="true"] {
 
     #sidebar-profile-img {
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sidebar i {
+        font-size: 2rem;
+        margin-right: 10px;
     }
 }
