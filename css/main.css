@@ -14,8 +14,6 @@
 body {
     background-color: var(--main-cream);
     color: var(--dark-brown);
-
-    scrollbar-width: 10px;
 }
 
 h1, h4, h5 {
@@ -30,25 +28,6 @@ h1 {
 
 h4, h5 {
     color: var(--secondary);
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555; 
 }
 
 a {
