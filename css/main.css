@@ -43,6 +43,10 @@ i:hover, i:active {
     opacity: 80%;
 }
 
+.link-wrap {
+    word-wrap: break-word;
+}
+
 .card:hover {
     cursor: pointer;
 }
